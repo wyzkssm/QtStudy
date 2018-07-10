@@ -18,6 +18,7 @@ private:
 	QPushButton *deleteButton;
 	QPushButton *loginGuiButton;
 	QPushButton *optionGuiButton;
+	QPushButton *optionGui1Button;
 
 	QLabel *nameLabel;
 	QLabel *emailLabel;
