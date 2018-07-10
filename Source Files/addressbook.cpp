@@ -32,8 +32,8 @@ void AddressBook::setupUi()
 
 	{
 		QGridLayout* buttonLayout = new QGridLayout();
-		buttonLayout->setSpacing(6);
-		mainLayout->addLayout(buttonLayout, 0, 2, 4, 1);
+		buttonLayout->setSpacing(7);
+		mainLayout->addLayout(buttonLayout, 0, 2, 5, 1);
 
 		addButton = new QPushButton(tr("&Add"));
 		buttonLayout->addWidget(addButton, 0, 0, 1, 1);
@@ -47,8 +47,13 @@ void AddressBook::setupUi()
 		optionGuiButton = new QPushButton(tr("&Go to Option Gui"));
 		buttonLayout->addWidget(optionGuiButton, 3, 0, 1, 1);
 
+		
+		optionGui1Button = new QPushButton(tr("&Go to Option1 Gui"));
+		buttonLayout->addWidget(optionGui1Button, 4, 0, 1, 1);
+
+
 		QSpacerItem* verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
-		buttonLayout->addItem(verticalSpacer, 4, 0, 1, 1);
+		buttonLayout->addItem(verticalSpacer, 5, 0, 1, 1);
 	}
 
 }

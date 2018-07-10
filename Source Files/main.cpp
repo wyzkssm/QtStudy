@@ -19,6 +19,14 @@ int main(int argc, char* argv[]) {
 	temp2.connectAddressBook(&temp);
 	temp3.connectAddressBook(&temp);
 
+
+
+
+
+
+
+
+
 	temp2.show();
 
 	return app.exec();
